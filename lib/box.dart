@@ -8,6 +8,8 @@ class DibujarPantalla extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.lightBlue,
+        leading: IconButton(
+          onPressed: () {}, icon: const Icon(Icons.arrow_back)),
       ),
       body: Center(
         child: Padding(
